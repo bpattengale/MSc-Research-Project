@@ -1,0 +1,32 @@
+Name: ZEUS_2007_I753991
+Year: 2007
+Summary: High E_t Dijet Photoproduction events at HERA
+Experiment: ZEUS
+Collider: HERA
+InspireID: 753991
+Status: UNVALIDATED NOHEPDATA SINGLEWEIGHT UNPHYSICAL
+Reentrant: false
+Authors:
+ - Bradley Pattengale <pattengalebradley@gmail.com>
+References:
+ - 'Example: Eur.Phys.J. C76 (2016) no.7, 392'
+ - 'Example: DOI:10.1140/epjc/s10052-016-4184-8'
+ - 'Example: arXiv:1605.03814'
+#RunInfo: <Describe event types, cuts, and other general generator config tips. Dijets selected with center of mass energy in the range $142<W_{\gamma p}<293$ GeV and $Q^2<1$ GeV^2. Cuts $E_t^{jet1}>20$ GeV and $E_t^{jet2}>15$ GeV, and psuedorapadity cuts $-1<\eta^{jet1,2}<3$ with at least one jet satisfying $-1<\eta^{jet}<2.5$.>
+#Beams: [p+, e-/+]
+#Energies: [920,27.5]
+#Luminosity_pb: 81.8 pb^-1
+Description:
+  'Cross sections of dijets from photoproduction are shown from collisons between protons and electrons/positrons with beam energies 920GeV and 27.5GeV, respectively. Jet with high transverse energies $E_t^{jet1} > 20GeV,\ E_t^{jet2}>15GeV$ were selected. This data is compared to next-to leading order QCD calculations, and measurements were found that show sensitivity to parton distribution functions of both the proton and photon, and to beyond next-to leading order QCD calculations.'
+ValidationInfo:
+  'A description of the process used to validate the Rivet code against
+  the original experimental analysis. Cut-flow tables and similar information
+  are welcome'
+#ReleaseTests:
+# - $A my-hepmc-prefix :MODE=some_rivet_flag
+Keywords: []
+BibKey: 
+BibTeX: ''
+ToDo:
+ - Implement the analysis, test it, remove this ToDo, and mark as VALIDATED :-)
+
