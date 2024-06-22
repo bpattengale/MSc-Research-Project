@@ -4,7 +4,7 @@ This is a [RIVET](https://rivet.hepforge.org/) analysis written for the Dijet Ph
 
 ## The Analysis Code
 
-The analysis code ([ZEUS_2007_I753991.cc]) is written using the RIVET namespace. It works by initializing histograms for each dataset, then checking kinematics of each collision event to ensure it meets the kinematic conditions mentioned in the paper which are as follows:
+The analysis code ([ZEUS_2007_I753991.cc](ZEUS_2007_I753991.cc)) is written using the RIVET namespace. It works by initializing histograms for each dataset, then checking kinematics of each collision event to ensure it meets the kinematic conditions mentioned in the paper which are as follows:
  - at least two jets
  - photon-proton center of mass energies in the range 142 < $W_{\gamma p}$ < 293 GeV
  - jet energies $E_T^{jet1}$ > 20 GeV and $E_T^{jet2}$ > 15 GeV
