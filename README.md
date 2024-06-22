@@ -11,4 +11,4 @@ The analysis is written using the RIVET namespace. It works by initializing hist
  - psuedorapadities of -1 < $\eta$ < 3 with at least one in the range -1 < $\eta$ < 2.5
 The analysis then proceeds to calculate kinematic variables of interest including $\Delta \phi$, $\overline{E_T}$, $\overline{eta}$, $x_{\gamma}^{obs}$, and $x_p^{obs}$. Next, the analysis fills the each histograms with it's corresponding kinematic variable, and checks conditions if applied to that plot. Finally, the analysis scales each histogram. An example of plots output by this analysis being run with the [Pythia](https://pythia.org/) monte carlo generator is seen below.
 
-![example-rivet-plots/ZEUS_2007_I753991/d01-x01-y01.png]
+![Example Rivet Plot](example-rivet-plots/ZEUS_2007_I753991/d01-x01-y01.png)
