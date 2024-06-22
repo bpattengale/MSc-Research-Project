@@ -2,9 +2,9 @@
 
 This is a [RIVET](https://rivet.hepforge.org/) analysis written for the Dijet Photoproduction paper "High-Et Dijet Photoproduction at HERA" (inspireID: [753991](https://inspirehep.net/literature/753991)) to compare experimental data presented in this paper to simulations from monte carlo generator. This analysis includes the C++  analysis code, the information file, the plotting file, and the experimental data file (.yoda).
 
-## [The Analysis Code](ZEUS_2007_I753991.cc)
+## The Analysis Code
 
-The analysis is written using the RIVET namespace. It works by initializing histograms for each dataset, then checking kinematics of each collision event to ensure it meets the kinematic conditions mentioned in the paper which are as follows:
+The analysis code ([ZEUS_2007_I753991.cc]) is written using the RIVET namespace. It works by initializing histograms for each dataset, then checking kinematics of each collision event to ensure it meets the kinematic conditions mentioned in the paper which are as follows:
  - at least two jets
  - photon-proton center of mass energies in the range 142 < $W_{\gamma p}$ < 293 GeV
  - jet energies $E_T^{jet1}$ > 20 GeV and $E_T^{jet2}$ > 15 GeV
