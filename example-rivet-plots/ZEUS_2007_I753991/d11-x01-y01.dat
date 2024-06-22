@@ -1,0 +1,43 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=$x_p^{obs}\ for\ "High-x_{\gamma}^{obs}\ 1"$
+XLabel=$x_p^{obs}$
+YLabel=$d\sigma / dx_p^{obs}$
+CustomLegend=$E_T^{jet1} > 25 GeV$
+LegendXPos=0.1
+LegendYPos=0.6
+DrawOnly=/ZEUS_2007_I753991/d11-x01-y01 //home/bpattengale/pythia/pythia8310/examples/10mill-events/No_MPI.yoda/ZEUS_2007_I753991/d11-x01-y01
+LegendOnly=/ZEUS_2007_I753991/d11-x01-y01 //home/bpattengale/pythia/pythia8310/examples/10mill-events/No_MPI.yoda/ZEUS_2007_I753991/d11-x01-y01
+RatioPlot=1
+RatioPlotReference=/ZEUS_2007_I753991/d11-x01-y01
+# END PLOT
+
+# BEGIN HISTO1D /ZEUS_2007_I753991/d11-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/ZEUS_2007_I753991/d11-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+1.000000e-01	2.000000e-01	8.090000e+01	8.830062e+00	6.820557e+00
+2.000000e-01	3.000000e-01	5.160000e+01	4.654031e+00	5.255473e+00
+3.000000e-01	4.000000e-01	1.260000e+01	2.455606e+00	2.402082e+00
+4.000000e-01	5.000000e-01	2.100000e+00	1.048809e+00	1.743560e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //home/bpattengale/pythia/pythia8310/examples/10mill-events/No_MPI.yoda/ZEUS_2007_I753991/d11-x01-y01
+LineColor=red
+LineStyle=solid
+Path=//home/bpattengale/pythia/pythia8310/examples/10mill-events/No_MPI.yoda/ZEUS_2007_I753991/d11-x01-y01
+ScaledBy=5.05452255092491906e-03
+Title=No_MPI
+# xlow	 xhigh	 val	 errminus	 errplus
+1.000000e-01	2.000000e-01	9.072868e+01	2.141472e+00	2.141472e+00
+2.000000e-01	3.000000e-01	6.490007e+01	1.811184e+00	1.811184e+00
+3.000000e-01	4.000000e-01	1.526466e+01	8.783824e-01	8.783824e-01
+4.000000e-01	5.000000e-01	2.274535e+00	3.390677e-01	3.390677e-01
+# END HISTO1D
+
