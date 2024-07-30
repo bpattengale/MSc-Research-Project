@@ -3,10 +3,6 @@
 #include "Rivet/Projections/FastJets.hh"
 #include "Rivet/Projections/DISKinematics.hh"
 #include "Rivet/Projections/Beam.hh"
-/// #include "Rivet/Projections/DressedLeptons.hh"
-/// #include "Rivet/Projections/FinalState.hh"
-/// #include "Rivet/Projections/MissingMomentum.hh"
-/// #include "Rivet/Projections/DirectFinalState.hh"
 
 namespace Rivet
 {
