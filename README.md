@@ -13,4 +13,4 @@ The analysis code ([ZEUS_2007_I753991.cc](ZEUS_2007_I753991/ZEUS_2007_I753991.cc
 The analysis then proceeds to calculate kinematic variables of interest including $\Delta \phi$, $\overline{E_T}$, $\overline{\eta}$, $x_{\gamma}^{obs}$, and $x_p^{obs}$. Next, the analysis fills the each histograms with it's corresponding kinematic variable, and checks conditions if applied to that plot. Finally, the analysis scales each histogram. An example of plots output by this analysis being run with the [Pythia](https://pythia.org/) monte carlo generator is seen below.
 
 
-![Example Rivet Plot](rivet-plots/ZEUS_2007_I753991/ZEUS_2007_I753991_d01-x01-y01.pdf)
+![Example Rivet Plot](rivet-plots/ZEUS_2007_I753991/ZEUS_2007_I753991_d01-x01-y01.png)
