@@ -1,0 +1,79 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=$x_p^{obs}\ for\ "High-x_{\gamma}^{obs}\ 4"$
+XLabel=$x_p^{obs}$
+YLabel=$d\sigma / dx_p^{obs}$
+LegendXPos=0.65
+DrawOnly=/ZEUS_2007_I753991/d14-x01-y01 /LHC-POWER.yoda/ZEUS_2007_I753991/d14-x01-y01 /LHC-LOG.yoda/ZEUS_2007_I753991/d14-x01-y01 /LEP-POWER.yoda/ZEUS_2007_I753991/d14-x01-y01 /LEP-LOG.yoda/ZEUS_2007_I753991/d14-x01-y01 /No_MPI.yoda/ZEUS_2007_I753991/d14-x01-y01
+LegendOnly=/ZEUS_2007_I753991/d14-x01-y01 /LHC-POWER.yoda/ZEUS_2007_I753991/d14-x01-y01 /LHC-LOG.yoda/ZEUS_2007_I753991/d14-x01-y01 /LEP-POWER.yoda/ZEUS_2007_I753991/d14-x01-y01 /LEP-LOG.yoda/ZEUS_2007_I753991/d14-x01-y01 /No_MPI.yoda/ZEUS_2007_I753991/d14-x01-y01
+RatioPlot=1
+RatioPlotReference=/ZEUS_2007_I753991/d14-x01-y01
+# END PLOT
+
+# BEGIN HISTO1D /ZEUS_2007_I753991/d14-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/ZEUS_2007_I753991/d14-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e-01	1.980000e+02	1.840462e+01	2.354464e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D /LHC-POWER.yoda/ZEUS_2007_I753991/d14-x01-y01
+LineColor=red
+LineStyle=solid
+Path=/LHC-POWER.yoda/ZEUS_2007_I753991/d14-x01-y01
+ScaledBy=5.05254473381524984e-03
+Title=LHC/POWER
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e-01	2.340844e+02	3.439073e+00	3.439073e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D /LHC-LOG.yoda/ZEUS_2007_I753991/d14-x01-y01
+LineColor=blue
+LineStyle=solid
+Path=/LHC-LOG.yoda/ZEUS_2007_I753991/d14-x01-y01
+ScaledBy=5.05407989169582086e-03
+Title=LHC/LOG
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e-01	2.367836e+02	3.459368e+00	3.459368e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D /LEP-POWER.yoda/ZEUS_2007_I753991/d14-x01-y01
+LineColor=green
+LineStyle=solid
+Path=/LEP-POWER.yoda/ZEUS_2007_I753991/d14-x01-y01
+ScaledBy=5.05321016490007865e-03
+Title=LEP/POWER
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e-01	2.372482e+02	3.462463e+00	3.462463e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D /LEP-LOG.yoda/ZEUS_2007_I753991/d14-x01-y01
+LineColor=orange
+LineStyle=solid
+Path=/LEP-LOG.yoda/ZEUS_2007_I753991/d14-x01-y01
+ScaledBy=5.05350965527829113e-03
+Title=LEP/LOG
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e-01	2.318550e+02	3.422984e+00	3.422984e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D /No_MPI.yoda/ZEUS_2007_I753991/d14-x01-y01
+LineColor=lilac
+LineStyle=solid
+Path=/No_MPI.yoda/ZEUS_2007_I753991/d14-x01-y01
+ScaledBy=5.05452255092491906e-03
+Title=No MPI
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e-01	2.318509e+02	3.423297e+00	3.423297e+00
+# END HISTO1D
+
