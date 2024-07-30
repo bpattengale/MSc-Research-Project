@@ -4,7 +4,7 @@ This is a [RIVET](https://rivet.hepforge.org/) analysis written for the Dijet Ph
 
 ## The Analysis Code
 
-The analysis code ([ZEUS_2007_I753991.cc](ZEUS_2007_I753991.cc)) is written using the RIVET namespace. It works by initializing histograms for each dataset, then checking kinematics of each collision event to ensure it meets the kinematic conditions mentioned in the paper which are as follows:
+The analysis code ([ZEUS_2007_I753991.cc](ZEUS_2007_I753991/ZEUS_2007_I753991.cc)) is written using the RIVET namespace. It works by initializing histograms for each dataset, then checking kinematics of each collision event to ensure it meets the kinematic conditions mentioned in the paper which are as follows:
  - at least two jets
  - photon-proton center of mass energies in the range 142 < $W_{\gamma p}$ < 293 GeV
  - jet energies $E_T^{jet1}$ > 20 GeV and $E_T^{jet2}$ > 15 GeV
@@ -13,4 +13,4 @@ The analysis code ([ZEUS_2007_I753991.cc](ZEUS_2007_I753991.cc)) is written usin
 The analysis then proceeds to calculate kinematic variables of interest including $\Delta \phi$, $\overline{E_T}$, $\overline{\eta}$, $x_{\gamma}^{obs}$, and $x_p^{obs}$. Next, the analysis fills the each histograms with it's corresponding kinematic variable, and checks conditions if applied to that plot. Finally, the analysis scales each histogram. An example of plots output by this analysis being run with the [Pythia](https://pythia.org/) monte carlo generator is seen below.
 
 
-![Example Rivet Plot](example-rivet-plots/ZEUS_2007_I753991/d01-x01-y01.png)
+![Example Rivet Plot](rivet-plots/ZEUS_2007_I753991/ZEUS_2007_I753991-d01-x01-y01.png)
