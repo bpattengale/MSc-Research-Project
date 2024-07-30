@@ -1,0 +1,120 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Cross section as a function of $x_{obs}^{\gamma}$ for $\mathrm{M}_{4j} \geq 50$ GeV
+XLabel=$x_{obs}^{\gamma}$
+YLabel=$\mathrm{d}\sigma/\mathrm{d}x_{obs}^{\gamma}$(pb)
+DrawOnly=/ZEUS_2007_I756660/d04-x01-y02 //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LHCPWR.yoda/ZEUS_2007_I756660/d04-x01-y02 //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LHCLOG.yoda/ZEUS_2007_I756660/d04-x01-y02 //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LEPPWR.yoda/ZEUS_2007_I756660/d04-x01-y02 //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LEPLOG.yoda/ZEUS_2007_I756660/d04-x01-y02 //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/NOMPI.yoda/ZEUS_2007_I756660/d04-x01-y02
+LegendOnly=/ZEUS_2007_I756660/d04-x01-y02 //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LHCPWR.yoda/ZEUS_2007_I756660/d04-x01-y02 //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LHCLOG.yoda/ZEUS_2007_I756660/d04-x01-y02 //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LEPPWR.yoda/ZEUS_2007_I756660/d04-x01-y02 //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LEPLOG.yoda/ZEUS_2007_I756660/d04-x01-y02 //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/NOMPI.yoda/ZEUS_2007_I756660/d04-x01-y02
+RatioPlot=1
+RatioPlotReference=/ZEUS_2007_I756660/d04-x01-y02
+# END PLOT
+
+# BEGIN HISTO1D /ZEUS_2007_I756660/d04-x01-y02
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/ZEUS_2007_I756660/d04-x01-y02
+PolyMarker=*
+Title=ZEUS
+# xlow	 xhigh	 val	 errminus	 errplus
+1.100000e-01	2.200000e-01	4.000000e-01	3.464102e-01	2.317326e+00
+2.200000e-01	3.300000e-01	2.500000e+01	1.513275e+01	1.676305e+01
+3.300000e-01	4.700000e-01	6.400000e+01	2.567100e+01	2.839014e+01
+4.700000e-01	6.200000e-01	1.030000e+02	3.563706e+01	3.234192e+01
+6.200000e-01	7.500000e-01	1.260000e+02	3.214032e+01	2.794638e+01
+7.500000e-01	8.500000e-01	1.700000e+02	3.646917e+01	3.952215e+01
+8.500000e-01	9.350000e-01	3.070000e+02	5.374942e+01	5.300943e+01
+9.350000e-01	1.000000e+00	1.220000e+02	3.798684e+01	6.953416e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LHCPWR.yoda/ZEUS_2007_I756660/d04-x01-y02
+LineColor=red
+LineStyle=solid
+Path=//home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LHCPWR.yoda/ZEUS_2007_I756660/d04-x01-y02
+ScaledBy=6.78500016577271853e-02
+Title=LHC/POWER
+# xlow	 xhigh	 val	 errminus	 errplus
+1.100000e-01	2.200000e-01	1.503228e+01	3.388354e+00	3.388354e+00
+2.200000e-01	3.300000e-01	2.326389e+02	1.291951e+01	1.291951e+01
+3.300000e-01	4.700000e-01	5.444624e+02	1.754219e+01	1.754219e+01
+4.700000e-01	6.200000e-01	5.721402e+02	1.743105e+01	1.743105e+01
+6.200000e-01	7.500000e-01	3.540052e+02	1.469594e+01	1.469594e+01
+7.500000e-01	8.500000e-01	3.099310e+02	1.560211e+01	1.560211e+01
+8.500000e-01	9.350000e-01	3.813293e+02	1.885536e+01	1.885536e+01
+9.350000e-01	1.000000e+00	1.666277e+02	1.410350e+01	1.410350e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LHCLOG.yoda/ZEUS_2007_I756660/d04-x01-y02
+LineColor=blue
+LineStyle=solid
+Path=//home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LHCLOG.yoda/ZEUS_2007_I756660/d04-x01-y02
+ScaledBy=6.78534754945669949e-02
+Title=LHC/LOG
+# xlow	 xhigh	 val	 errminus	 errplus
+1.100000e-01	2.200000e-01	8.606759e-01	8.606759e-01	8.606759e-01
+2.200000e-01	3.300000e-01	2.427181e+01	4.325193e+00	4.325193e+00
+3.300000e-01	4.700000e-01	4.553581e+01	5.128492e+00	5.128492e+00
+4.700000e-01	6.200000e-01	7.340707e+01	6.337887e+00	6.337887e+00
+6.200000e-01	7.500000e-01	1.081775e+02	8.012169e+00	8.012169e+00
+7.500000e-01	8.500000e-01	2.104096e+02	1.272816e+01	1.272816e+01
+8.500000e-01	9.350000e-01	3.207582e+02	1.718787e+01	1.718787e+01
+9.350000e-01	1.000000e+00	1.698382e+02	1.459420e+01	1.459420e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LEPPWR.yoda/ZEUS_2007_I756660/d04-x01-y02
+LineColor=green
+LineStyle=solid
+Path=//home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LEPPWR.yoda/ZEUS_2007_I756660/d04-x01-y02
+ScaledBy=6.78434119671345454e-02
+Title=LEP/POWER
+# xlow	 xhigh	 val	 errminus	 errplus
+1.100000e-01	2.200000e-01	3.730424e-01	3.730423e-01	3.730423e-01
+2.200000e-01	3.300000e-01	6.167562e+00	2.097104e+00	2.097104e+00
+3.300000e-01	4.700000e-01	1.694906e+01	3.144430e+00	3.144430e+00
+4.700000e-01	6.200000e-01	4.693214e+01	5.001883e+00	5.001883e+00
+6.200000e-01	7.500000e-01	8.255238e+01	7.076804e+00	7.076804e+00
+7.500000e-01	8.500000e-01	1.959245e+02	1.240902e+01	1.240902e+01
+8.500000e-01	9.350000e-01	3.120273e+02	1.679244e+01	1.679244e+01
+9.350000e-01	1.000000e+00	1.558794e+02	1.385995e+01	1.385995e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LEPLOG.yoda/ZEUS_2007_I756660/d04-x01-y02
+LineColor=orange
+LineStyle=solid
+Path=//home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/LEPLOG.yoda/ZEUS_2007_I756660/d04-x01-y02
+ScaledBy=6.78512794874849001e-02
+Title=LEP/LOG
+# xlow	 xhigh	 val	 errminus	 errplus
+1.100000e-01	2.200000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+2.200000e-01	3.300000e-01	3.815596e+00	1.761245e+00	1.761245e+00
+3.300000e-01	4.700000e-01	1.956617e+01	3.381482e+00	3.381482e+00
+4.700000e-01	6.200000e-01	4.397184e+01	4.781370e+00	4.781370e+00
+6.200000e-01	7.500000e-01	9.042823e+01	7.313098e+00	7.313098e+00
+7.500000e-01	8.500000e-01	1.789690e+02	1.189455e+01	1.189455e+01
+8.500000e-01	9.350000e-01	3.244211e+02	1.754192e+01	1.754192e+01
+9.350000e-01	1.000000e+00	1.475975e+02	1.336068e+01	1.336068e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/NOMPI.yoda/ZEUS_2007_I756660/d04-x01-y02
+LineColor=lilac
+LineStyle=solid
+Path=//home/bpattengale/pythia/pythia8310/examples/34j-NEW3-test/10-million/NOMPI.yoda/ZEUS_2007_I756660/d04-x01-y02
+ScaledBy=6.78432320651064236e-02
+Title=No MPI
+# xlow	 xhigh	 val	 errminus	 errplus
+1.100000e-01	2.200000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+2.200000e-01	3.300000e-01	1.492158e+00	7.460790e-01	7.460790e-01
+3.300000e-01	4.700000e-01	1.057119e+01	2.384899e+00	2.384899e+00
+4.700000e-01	6.200000e-01	3.159817e+01	3.954280e+00	3.954280e+00
+6.200000e-01	7.500000e-01	6.536855e+01	6.192824e+00	6.192824e+00
+7.500000e-01	8.500000e-01	2.059862e+02	1.293244e+01	1.293244e+01
+8.500000e-01	9.350000e-01	3.384179e+02	1.767167e+01	1.767167e+01
+9.350000e-01	1.000000e+00	1.594737e+02	1.389845e+01	1.389845e+01
+# END HISTO1D
+
